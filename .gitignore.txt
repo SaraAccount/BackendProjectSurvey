@@ -121,6 +121,9 @@ App_Data/*.ldf
 Thumbs.db
 ehthumbs.db
 
+.vs/
+
+
 # Folder config file
 Desktop.ini
 

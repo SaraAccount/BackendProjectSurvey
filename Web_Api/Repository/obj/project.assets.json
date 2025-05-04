@@ -3220,19 +3220,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user1\\.nuget\\packages\\": {}
+    "C:\\Users\\shira\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\obj\\",
+      "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\shira\\.nuget\\packages\\",
+      "outputPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3240,6 +3245,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3252,7 +3258,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net7.0": {
@@ -3283,11 +3295,21 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json' 6.0.8 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
