@@ -46,12 +46,5 @@ namespace Repository.Entities
         public eRole Role { get; set; }
         public virtual ICollection<Survey> OwnSurveys { get; set; }
         public virtual ICollection<Survey> AnsweredSurveys { get; set; }
-
-
-
-
-
-
-
     }
 }
