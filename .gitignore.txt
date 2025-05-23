@@ -6,6 +6,7 @@
 *.user
 *.sln.docstates
 
+
 # Build results
 
 [Dd]ebug/
@@ -122,7 +123,8 @@ Thumbs.db
 ehthumbs.db
 
 .vs/
-
+bin/
+obj/
 
 # Folder config file
 Desktop.ini
