@@ -67,3 +67,21 @@ D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\r
 D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.pdb
 D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.genruntimeconfig.cache
 D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\ref\Mock.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.deps.json
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.runtimeconfig.json
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.pdb
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Repository.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Repository.pdb
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.csproj.AssemblyReference.cache
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.AssemblyInfoInputs.cache
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.AssemblyInfo.cs
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.csproj.CoreCompileInputs.cache
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.sourcelink.json
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.csproj.Up2Date
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\refint\Mock.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.pdb
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.genruntimeconfig.cache
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\ref\Mock.dll

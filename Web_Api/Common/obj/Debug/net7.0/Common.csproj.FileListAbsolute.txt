@@ -22,3 +22,15 @@ C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Com
 C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\refint\Common.dll
 C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\Common.pdb
 C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\ref\Common.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\bin\Debug\net7.0\Common.deps.json
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\bin\Debug\net7.0\Common.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\bin\Debug\net7.0\Common.pdb
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\Common.sourcelink.json
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\Common.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\refint\Common.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\Common.pdb
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Common\obj\Debug\net7.0\ref\Common.dll

@@ -26,7 +26,7 @@ namespace Mock
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-SSNMLFD; database=Data++;trusted_connection=true; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("server=LAPTOP-SIT2UGNA; database=Data++;trusted_connection=true; TrustServerCertificate=True");
         }
 
 
