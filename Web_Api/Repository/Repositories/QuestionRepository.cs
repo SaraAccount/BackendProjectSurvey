@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Repositories
 {
-    public class QuestionRepository
+    public class QuestionRepository:IRepository<Question>
     {
 
         private readonly IContext context;
@@ -19,6 +19,7 @@ namespace Repository.Repositories
         public Question AddItem(Question item)
         {
             context.Questions.Add(item);
+            context.Save();
             return item;
         }
 
@@ -27,6 +28,7 @@ namespace Repository.Repositories
             Question question = context.Questions.FirstOrDefault(x => x.Id == id);
             if (question != null)
                 context.Questions.Remove(question);
+            context.Save();
         }
 
         public List<Question> GetAll()
@@ -47,6 +49,7 @@ namespace Repository.Repositories
             question.Options = item.Options;
             question.Label = item.Label;
             question.TypeTag = item.TypeTag;
+            context.Save();
         }
     }
 }

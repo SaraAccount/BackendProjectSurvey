@@ -32,3 +32,38 @@ C:\Users\user1\Desktop\Programing\פרוקיט סוף שנה\Project\Web_Api\Moc
 C:\Users\user1\Desktop\Programing\פרוקיט סוף שנה\Project\Web_Api\Mock\obj\Debug\net7.0\Mock.pdb
 C:\Users\user1\Desktop\Programing\פרוקיט סוף שנה\Project\Web_Api\Mock\obj\Debug\net7.0\Mock.genruntimeconfig.cache
 C:\Users\user1\Desktop\Programing\פרוקיט סוף שנה\Project\Web_Api\Mock\obj\Debug\net7.0\ref\Mock.dll
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.deps.json
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.runtimeconfig.json
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.dll
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.pdb
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Repository.dll
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Repository.pdb
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.AssemblyInfo.cs
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.csproj.CopyComplete
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.dll
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\refint\Mock.dll
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.pdb
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.genruntimeconfig.cache
+C:\Users\user1\Desktop\Programing\SurveyProject\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\ref\Mock.dll
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.deps.json
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.runtimeconfig.json
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.dll
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Mock.pdb
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Repository.dll
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\bin\Debug\net7.0\Repository.pdb
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.csproj.AssemblyReference.cache
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.AssemblyInfoInputs.cache
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.AssemblyInfo.cs
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.csproj.CoreCompileInputs.cache
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.sourcelink.json
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.csproj.Up2Date
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.dll
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\refint\Mock.dll
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.pdb
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\Mock.genruntimeconfig.cache
+D:\לשירה באהבה\C#\BackendProjectSurvey\Web_Api\Mock\obj\Debug\net7.0\ref\Mock.dll

@@ -18,6 +18,7 @@ namespace Repository.Repositories
         public Answer AddItem(Answer item)
         {
             context.Answers.Add(item);
+            context.Save();
             return item;
         }
 
@@ -26,6 +27,7 @@ namespace Repository.Repositories
             Answer answer = context.Answers.FirstOrDefault(x => x.Id == id);
             if (answer != null)
                 context.Answers.Remove(answer);
+            context.Save();
         }
 
         public List<Answer> GetAll()
@@ -47,6 +49,8 @@ namespace Repository.Repositories
             answer.IsAnswered = item.IsAnswered;
             answer.Question = item.Question;
             answer.QuestionId = item.QuestionId;
+            context.Save();
         }
+
     }
 }

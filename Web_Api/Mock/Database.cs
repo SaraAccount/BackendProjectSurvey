@@ -30,17 +30,6 @@ namespace Mock
         }
 
 
-
-     
-
-
-
-
-
-
-
-
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // קשר של 1 לרבים - כל משתמש יכול ליצור כמה סקרים

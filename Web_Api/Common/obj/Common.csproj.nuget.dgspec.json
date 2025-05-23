@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Common\\Common.csproj": {}
+    "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Common\\Common.csproj": {
+    "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Common\\obj\\",
+        "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\shira\\.nuget\\packages\\",
+        "outputPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -55,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
