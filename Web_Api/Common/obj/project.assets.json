@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj",
+      "projectUniqueName": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj",
+      "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\shira\\.nuget\\packages\\",
-      "outputPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Common\\obj\\",
+      "outputPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

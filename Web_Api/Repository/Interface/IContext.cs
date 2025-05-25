@@ -15,6 +15,8 @@ namespace Repository.Interface
         public DbSet<User> Users { get; set; }
         public DbSet<Survey> Surveys { get; set; }
         public void Save();
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+
 
     }
 }

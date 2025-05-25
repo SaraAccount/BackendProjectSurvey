@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj": {}
+    "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj": {}
   },
   "projects": {
-    "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj": {
+    "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj",
+        "projectUniqueName": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj",
         "projectName": "Mock",
-        "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj",
+        "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj",
         "packagesPath": "C:\\Users\\shira\\.nuget\\packages\\",
-        "outputPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Mock\\obj\\",
+        "outputPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Mock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj"
+              "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj": {
+    "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
+        "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\shira\\.nuget\\packages\\",
-        "outputPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\obj\\",
+        "outputPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

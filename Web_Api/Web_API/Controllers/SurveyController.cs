@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Repository.Entities;
 using Repository.Interface;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Web_API.Controllers
 {
@@ -15,39 +15,40 @@ namespace Web_API.Controllers
         {
             this.repository = repository;
         }
-        // GET: api/<ValuesController>
+
+        // GET: api/<SurveyController>
         [HttpGet]
-        public IEnumerable<Survey> Get()
+        public async Task<IEnumerable<Survey>> Get()
         {
-            return repository.GetAll();
+            return await repository.GetAll();
         }
 
-        // GET api/<ValuesController>/5
+        // GET api/<SurveyController>/5
         [HttpGet("{id}")]
-        public Survey Get(int id)
+        public async Task<Survey> Get(int id)
         {
-            return repository.GetById(id);
+            return await repository.GetById(id);
         }
 
-        // POST api/<ValuesController>
+        // POST api/<SurveyController>
         [HttpPost]
-        public void Post([FromBody] Survey survey)
+        public async Task Post([FromBody] Survey survey)
         {
-            repository.AddItem(survey);
+            await repository.AddItem(survey);
         }
 
-        // PUT api/<ValuesController>/5
+        // PUT api/<SurveyController>/5
         [HttpPut]
-        public void Put([FromBody] Survey survey)
+        public async Task Put([FromBody] Survey survey)
         {
-            repository.UpdateItem(survey);
+            await repository.UpdateItem(survey);
         }
 
-        // DELETE api/<ValuesController>/5
+        // DELETE api/<SurveyController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            repository.DeleteItem(id);
+            await repository.DeleteItem(id);
         }
     }
 }

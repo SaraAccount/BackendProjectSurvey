@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EpATr0kWwcA=",
+  "dgSpecHash": "MddpWDfx8HU=",
   "success": true,
-  "projectFilePath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shira\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\shira\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -72,9 +72,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Newtonsoft.Json' 6.0.8 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
+      "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
+      "filePath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net7.0"
@@ -84,9 +84,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Newtonsoft.Json 6.0.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
+      "projectPath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\C#\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
+      "filePath": "C:\\תכנות\\לפני\\שנה ב\\פרויקט סוף שנה\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net7.0"

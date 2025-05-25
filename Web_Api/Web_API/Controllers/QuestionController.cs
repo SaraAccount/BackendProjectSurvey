@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Repository.Entities;
 using Repository.Interface;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Web_API.Controllers
 {
@@ -15,39 +15,40 @@ namespace Web_API.Controllers
         {
             this.repository = repository;
         }
-        // GET: api/<ValuesController>
+
+        // GET: api/<QuestionController>
         [HttpGet]
-        public IEnumerable<Question> Get()
+        public async Task<IEnumerable<Question>> Get()
         {
-            return repository.GetAll();
+            return await repository.GetAll();
         }
 
-        // GET api/<ValuesController>/5
+        // GET api/<QuestionController>/5
         [HttpGet("{id}")]
-        public Question Get(int id)
+        public async Task<Question> Get(int id)
         {
-            return repository.GetById(id);
+            return await repository.GetById(id);
         }
 
-        // POST api/<ValuesController>
+        // POST api/<QuestionController>
         [HttpPost]
-        public void Post([FromBody] Question question)
+        public async Task Post([FromBody] Question question)
         {
-            repository.AddItem(question);
+            await repository.AddItem(question);
         }
 
-        // PUT api/<ValuesController>/5
+        // PUT api/<QuestionController>
         [HttpPut]
-        public void Put([FromBody] Question question)
+        public async Task Put([FromBody] Question question)
         {
-            repository.UpdateItem(question);
+            await repository.UpdateItem(question);
         }
 
-        // DELETE api/<ValuesController>/5
+        // DELETE api/<QuestionController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            repository.DeleteItem(id);
+            await repository.DeleteItem(id);
         }
     }
 }

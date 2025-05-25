@@ -17,37 +17,37 @@ namespace Web_Api.Controllers
         }
         // GET: api/<ValuesController>
         [HttpGet]
-        public IEnumerable<User> Get()
+        public async Task<IEnumerable<User>> Get()
         {
-            return repository.GetAll();
+            return await repository.GetAll();
         }
 
         // GET api/<ValuesController>/5
         [HttpGet("{id}")]
-        public User Get(int id)
+        public async Task<User> Get(int id)
         {
-            return repository.GetById(id);
+            return await repository.GetById(id);
         }
 
         // POST api/<ValuesController>
         [HttpPost]
-        public void Post([FromBody] User user)
+        public async Task Post([FromBody] User user)
         {
-            repository.AddItem(user);
+            await repository.AddItem(user);
         }
 
         // PUT api/<ValuesController>/5
         [HttpPut]
-        public void Put([FromBody] User user)
+        public async Task Put([FromBody] User user)
         {
-            repository.UpdateItem(user);
+            await repository.UpdateItem(user);
         }
 
         // DELETE api/<ValuesController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            repository.DeleteItem(id);
+            await repository.DeleteItem(id);
         }
     }
 }
