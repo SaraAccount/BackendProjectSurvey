@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Repository.Repositories
 {
@@ -15,38 +16,42 @@ namespace Repository.Repositories
         {
             this.context = context;
         }
-        public Answer AddItem(Answer item)
+
+        public async Task<Answer> AddItem(Answer item)
         {
-            context.Answers.Add(item);
+            await context.Answers.AddAsync(item);
             return item;
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItem(int id)
         {
-            Answer answer = context.Answers.FirstOrDefault(x => x.Id == id);
+            Answer answer = await context.Answers.FirstOrDefaultAsync(x => x.Id == id);
             if (answer != null)
                 context.Answers.Remove(answer);
         }
 
-        public List<Answer> GetAll()
+        public async Task<List<Answer>> GetAll()
         {
-            return context.Answers.ToList();
+            return await context.Answers.ToListAsync();
         }
 
-        public Answer GetById(int id)
+        public async Task<Answer> GetById(int id)
         {
-            return context.Answers.FirstOrDefault(x => x.Id == id);
+            return await context.Answers.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public void UpdateItem(Answer item)
+        public async Task UpdateItem(Answer item)
         {
-            Answer answer = context.Answers.FirstOrDefault(x => x.Id == item.Id);
-            answer.User = item.User;
-            answer.UserId = item.UserId;
-            answer.AnswerValue = item.AnswerValue;
-            answer.IsAnswered = item.IsAnswered;
-            answer.Question = item.Question;
-            answer.QuestionId = item.QuestionId;
+            Answer answer = await context.Answers.FirstOrDefaultAsync(x => x.Id == item.Id);
+            if (answer != null)
+            {
+                answer.User = item.User;
+                answer.UserId = item.UserId;
+                answer.AnswerValue = item.AnswerValue;
+                answer.IsAnswered = item.IsAnswered;
+                answer.Question = item.Question;
+                answer.QuestionId = item.QuestionId;
+            }
         }
     }
 }

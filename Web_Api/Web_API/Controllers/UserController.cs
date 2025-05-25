@@ -17,9 +17,9 @@ namespace Web_Api.Controllers
         }
         // GET: api/<ValuesController>
         [HttpGet]
-        public IEnumerable<User> Get()
+        public async Task<IEnumerable<User>> Get()
         {
-            return repository.GetAll();
+            return await repository.GetAllAsync();
         }
 
         // GET api/<ValuesController>/5
