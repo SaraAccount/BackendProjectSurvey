@@ -5,51 +5,52 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore; // חשוב ל-FirstOrDefaultAsync, ToListAsync
 
 namespace Repository.Repositories
 {
-    public class QuestionRepository:IRepository<Question>
+    public class QuestionRepository : IRepository<Question>
     {
-
         private readonly IContext context;
         public QuestionRepository(IContext context)
         {
             this.context = context;
         }
-        public Question AddItem(Question item)
+
+        public async Task<Question> AddItem(Question item)
         {
-            context.Questions.Add(item);
-            context.Save();
+            await context.Questions.AddAsync(item);
             return item;
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItem(int id)
         {
-            Question question = context.Questions.FirstOrDefault(x => x.Id == id);
+            Question question = await context.Questions.FirstOrDefaultAsync(x => x.Id == id);
             if (question != null)
                 context.Questions.Remove(question);
-            context.Save();
         }
 
-        public List<Question> GetAll()
+        public async Task<List<Question>> GetAll()
         {
-            return context.Questions.ToList();
+            return await context.Questions.ToListAsync();
         }
 
-        public Question GetById(int id)
+        public async Task<Question> GetById(int id)
         {
-            return context.Questions.FirstOrDefault(x => x.Id == id);
+            return await context.Questions.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public void UpdateItem(Question item)
+        public async Task UpdateItem(Question item)
         {
-            Question question = context.Questions.FirstOrDefault(x => x.Id == item.Id);
-            question.Answers = item.Answers;
-            question.IsRequired= item.IsRequired;
-            question.Options = item.Options;
-            question.Label = item.Label;
-            question.TypeTag = item.TypeTag;
-            context.Save();
+            Question question = await context.Questions.FirstOrDefaultAsync(x => x.Id == item.Id);
+            if (question != null)
+            {
+                question.Answers = item.Answers;
+                question.IsRequired = item.IsRequired;
+                question.Options = item.Options;
+                question.Label = item.Label;
+                question.TypeTag = item.TypeTag;
+            }
         }
     }
 }
