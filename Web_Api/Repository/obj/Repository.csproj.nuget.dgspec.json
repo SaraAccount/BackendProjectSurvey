@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj": {}
+    "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj": {
+    "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -18,6 +18,7 @@ namespace Repository.Repositories
         public User AddItem(User item)
         {
             context.Users.Add(item);
+            context.Save();
             return item;
         }
 
@@ -26,6 +27,7 @@ namespace Repository.Repositories
             User user = context.Users.FirstOrDefault(x => x.Id == id);
             if (user != null)
                 context.Users.Remove(user);
+            context.Save();
         }
 
         public List<User> GetAll()
@@ -52,6 +54,7 @@ namespace Repository.Repositories
             user.Role = item.Role;
             user.OwnSurveys = item.OwnSurveys;
             user.AnsweredSurveys = item.AnsweredSurveys;
+            context.Save();
         }
 
     }

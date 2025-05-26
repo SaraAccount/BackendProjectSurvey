@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Repositories
 {
-    public class SurveyRepository
+    public class SurveyRepository:IRepository<Survey>
     {
 
         private readonly IContext context;
@@ -19,6 +19,7 @@ namespace Repository.Repositories
         public Survey AddItem(Survey item)
         {
             context.Surveys.Add(item);
+            context.Save();
             return item;
         }
 
@@ -27,6 +28,7 @@ namespace Repository.Repositories
             Survey Survey = context.Surveys.FirstOrDefault(x => x.Id == id);
             if (Survey != null)
                 context.Surveys.Remove(Survey);
+            context.Save();
         }
 
         public List<Survey> GetAll()
@@ -47,8 +49,9 @@ namespace Repository.Repositories
             survey.Subject=item.Subject;
             survey.DateClose=item.DateClose;
             survey.Respondents=item.Respondents;
-            survey.MaxPeople=item.MaxPeople;            
-            
+            survey.MaxPeople=item.MaxPeople;
+            context.Save();
+
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Common\\Common.csproj": {}
+    "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Common\\Common.csproj": {
+    "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Common\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",

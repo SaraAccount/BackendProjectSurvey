@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YXBqd89vlhkvXs4YWxBb/VgrHnIchBORmVaccc/sKqGdhgDyWHhLPCKhS2kKwAZGDTfYn5CzeIxYqmiQWgT76w==",
+  "dgSpecHash": "sWo4BCw7GTrkdcutuU0CNVnJVi+Z4xAcYWXi79IJ1aXgBgY1sU5bUaLU8vn+BOdGoRrGVk0dcBOBx7fqZMLEKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Mock\\Mock.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

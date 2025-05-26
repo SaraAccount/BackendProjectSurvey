@@ -1,17 +1,72 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Web_API\\Web_API.csproj": {}
+    "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Web_API\\Web_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Mock\\Mock.csproj": {
+    "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Mock\\Mock.csproj",
-        "projectName": "Mock",
-        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Mock\\Mock.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Mock\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj",
+        "projectName": "Mock",
+        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Mock\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj"
+              "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj"
               }
             }
           }
@@ -81,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj": {
+    "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,14 +201,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Web_API\\Web_API.csproj": {
+    "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Web_API\\Web_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Web_API\\Web_API.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Web_API\\Web_API.csproj",
         "projectName": "Web_API",
-        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Web_API\\Web_API.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Web_API\\Web_API.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Web_API\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Web_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -171,11 +226,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Mock\\Mock.csproj": {
-                "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Mock\\Mock.csproj"
+              "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Common\\Common.csproj"
               },
-              "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\פרוקיט סוף שנה\\Project\\Web_Api\\Repository\\Repository.csproj"
+              "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Mock\\Mock.csproj"
+              },
+              "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\Programing\\SurveyProject\\BackendProjectSurvey\\Web_Api\\Repository\\Repository.csproj"
               }
             }
           }
@@ -190,13 +248,27 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.7, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

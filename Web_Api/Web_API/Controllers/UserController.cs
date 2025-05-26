@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Repository.Entities;
 using Repository.Interface;
 
@@ -17,6 +18,7 @@ namespace Web_Api.Controllers
         }
         // GET: api/<ValuesController>
         [HttpGet]
+        [Authorize]
         public IEnumerable<User> Get()
         {
             return repository.GetAll();

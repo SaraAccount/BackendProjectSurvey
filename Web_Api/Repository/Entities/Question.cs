@@ -24,7 +24,7 @@ namespace Repository.Entities
         public eTypeTag TypeTag { get; set; }
         public bool IsRequired { get; set; } //must 
         public string Options { get; set; }
-        public virtual ICollection<Answer> Answers { get; set; }
+        public virtual ICollection<Answer>? Answers { get; set; }
 
         //functions
         //פונקציה שתחלץ את המחרוזות ותהפוך את זה לרשימה של מחרוזות
