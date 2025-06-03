@@ -93,7 +93,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 392,
+          "DockedHeight": 390,
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -118,8 +118,7 @@
               "RelativeToolTip": "Common\\Dto\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T17:27:24.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T17:27:24.27Z"
             },
             {
               "$type": "Document",
@@ -131,8 +130,7 @@
               "RelativeToolTip": "Common\\Dto\\SurveyDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T17:27:20.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T17:27:20.535Z"
             },
             {
               "$type": "Document",
@@ -144,8 +142,7 @@
               "RelativeToolTip": "Common\\Dto\\QuestionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T17:27:16.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T17:27:16.329Z"
             },
             {
               "$type": "Document",
@@ -155,7 +152,7 @@
               "RelativeDocumentMoniker": "Common\\Dto\\AnswerDto.cs",
               "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05DC\u05E4\u05E0\u05D9\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E3 \u05E9\u05E0\u05D4\\projectSurvey\\BackendProjectSurvey\\Web_Api\\Common\\Dto\\AnswerDto.cs",
               "RelativeToolTip": "Common\\Dto\\AnswerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T17:27:04.167Z",
               "EditorCaption": ""
@@ -170,8 +167,7 @@
               "RelativeToolTip": "Repository\\Entities\\Question.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAswBcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T17:06:04.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T17:06:04.321Z"
             },
             {
               "$type": "Document",
@@ -183,8 +179,7 @@
               "RelativeToolTip": "Repository\\Entities\\Survey.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAswBQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T17:05:52.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T17:05:52.714Z"
             },
             {
               "$type": "Document",
@@ -196,8 +191,7 @@
               "RelativeToolTip": "Repository\\Entities\\Answer.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAADwvxsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T17:00:10.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T17:00:10.169Z"
             },
             {
               "$type": "Document",
@@ -209,8 +203,7 @@
               "RelativeToolTip": "Web_API\\Controllers\\QuestionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:28:07.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:28:07.46Z"
             },
             {
               "$type": "Document",
@@ -222,8 +215,7 @@
               "RelativeToolTip": "Web_API\\Controllers\\SurveyController.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAkwBIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:27:21.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:27:21.705Z"
             },
             {
               "$type": "Document",
@@ -235,8 +227,7 @@
               "RelativeToolTip": "Web_API\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:27:12.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:27:12.472Z"
             },
             {
               "$type": "Document",
@@ -248,8 +239,7 @@
               "RelativeToolTip": "Web_API\\Controllers\\AnswerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:26:17.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:26:17.709Z"
             },
             {
               "$type": "Document",
@@ -261,8 +251,7 @@
               "RelativeToolTip": "Repository\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:25:57.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:25:57.776Z"
             },
             {
               "$type": "Document",
@@ -274,8 +263,7 @@
               "RelativeToolTip": "Repository\\Repositories\\SurveyRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:25:45.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:25:45.196Z"
             },
             {
               "$type": "Document",
@@ -287,8 +275,7 @@
               "RelativeToolTip": "Repository\\Repositories\\AnswerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:25:18.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:25:18.733Z"
             },
             {
               "$type": "Document",
@@ -300,8 +287,7 @@
               "RelativeToolTip": "Repository\\Interface\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:25:12.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:25:12.765Z"
             },
             {
               "$type": "Document",
@@ -313,8 +299,7 @@
               "RelativeToolTip": "Repository\\Interface\\IContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:24:43.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:24:43.929Z"
             },
             {
               "$type": "Document",
@@ -326,8 +311,7 @@
               "RelativeToolTip": "Repository\\Entities\\User.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwCgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T07:57:10.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T07:57:10.075Z"
             },
             {
               "$type": "Document",
@@ -339,8 +323,7 @@
               "RelativeToolTip": "Mock\\Database.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAzwAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T07:17:00.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T07:17:00.885Z"
             },
             {
               "$type": "Document",
@@ -364,8 +347,7 @@
               "RelativeToolTip": "Repository\\Repositories\\QuestionRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T07:54:12.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T07:54:12.207Z"
             },
             {
               "$type": "Document",
@@ -382,16 +364,30 @@
           ]
         },
         {
-          "DockedHeight": 150,
+          "DockedHeight": 27,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 113,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
