@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Repository.Entities.Answer, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.Dto.AnswerDto, Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,18 +28,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "answer",
-        "Type": "Repository.Entities.Answer",
+        "Name": "answerDto",
+        "Type": "Common.Dto.AnswerDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_API.Controllers.AnswerController",
@@ -50,18 +44,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "answer",
-        "Type": "Repository.Entities.Answer",
+        "Name": "answerDto",
+        "Type": "Common.Dto.AnswerDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_API.Controllers.AnswerController",
@@ -79,7 +67,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Repository.Entities.Answer",
+        "Type": "Common.Dto.AnswerDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -103,13 +91,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_API.Controllers.QuestionController",
@@ -121,7 +103,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Repository.Entities.Question, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.Dto.QuestionDto, Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -140,18 +122,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "question",
-        "Type": "Repository.Entities.Question",
+        "Name": "questionDto",
+        "Type": "Common.Dto.QuestionDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_API.Controllers.QuestionController",
@@ -162,18 +138,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "question",
-        "Type": "Repository.Entities.Question",
+        "Name": "questionDto",
+        "Type": "Common.Dto.QuestionDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_API.Controllers.QuestionController",
@@ -191,7 +161,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Repository.Entities.Question",
+        "Type": "Common.Dto.QuestionDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -215,13 +185,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_API.Controllers.SurveyController",
@@ -233,7 +197,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Repository.Entities.Survey, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.Dto.SurveyDto, Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -252,18 +216,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "survey",
-        "Type": "Repository.Entities.Survey",
+        "Name": "surveyDto",
+        "Type": "Common.Dto.SurveyDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_API.Controllers.SurveyController",
@@ -274,18 +232,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "survey",
-        "Type": "Repository.Entities.Survey",
+        "Name": "surveyDto",
+        "Type": "Common.Dto.SurveyDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_API.Controllers.SurveyController",
@@ -303,7 +255,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Repository.Entities.Survey",
+        "Type": "Common.Dto.SurveyDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -327,13 +279,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_Api.Controllers.UserController",
@@ -345,7 +291,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Repository.Entities.User, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.Dto.UserDto, Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -364,18 +310,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "Repository.Entities.User",
+        "Name": "userDto",
+        "Type": "Common.Dto.UserDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_Api.Controllers.UserController",
@@ -386,18 +326,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "Repository.Entities.User",
+        "Name": "userDto",
+        "Type": "Common.Dto.UserDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_Api.Controllers.UserController",
@@ -415,7 +349,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Repository.Entities.User",
+        "Type": "Common.Dto.UserDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -439,13 +373,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web_API.Controllers.WeatherForecastController",

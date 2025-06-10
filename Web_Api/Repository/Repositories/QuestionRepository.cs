@@ -52,5 +52,9 @@ namespace Repository.Repositories
                 question.TypeTag = item.TypeTag;
             }
         }
+        public async Task SaveChangesAsync()
+        {
+            await context.SaveChangesAsync();
+        }
     }
 }

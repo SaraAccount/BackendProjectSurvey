@@ -53,5 +53,9 @@ namespace Repository.Repositories
                 answer.QuestionId = item.QuestionId;
             }
         }
+        public async Task SaveChangesAsync()
+        {
+            await context.SaveChangesAsync();
+        }
     }
 }

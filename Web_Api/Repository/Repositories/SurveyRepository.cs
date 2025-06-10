@@ -58,5 +58,10 @@ namespace Repository.Repositories
                 await context.SaveChangesAsync();
             }
         }
+
+        public async Task SaveChangesAsync()
+        {
+            await context.SaveChangesAsync();
+        }
     }
 }

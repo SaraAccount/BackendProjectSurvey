@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Common.Dto;
+using Microsoft.AspNetCore.Mvc;
 using Repository.Entities;
 using Repository.Interface;
 using System.Collections.Generic;
@@ -10,45 +12,58 @@ namespace Web_API.Controllers
     [ApiController]
     public class SurveyController : ControllerBase
     {
-        IRepository<Survey> repository;
-        public SurveyController(IRepository<Survey> repository)
+        private readonly IRepository<Survey> repository;
+        private readonly IMapper mapper;
+
+        public SurveyController(IRepository<Survey> repository,Mapper mapper)
         {
             this.repository = repository;
+            this.mapper = mapper;
         }
 
         // GET: api/<SurveyController>
         [HttpGet]
-        public async Task<IEnumerable<Survey>> Get()
+        public async Task<IEnumerable<SurveyDto>> Get()
         {
-            return await repository.GetAll();
+            var survies = await repository.GetAll();
+            return mapper.Map<List<SurveyDto>>(survies);
         }
 
         // GET api/<SurveyController>/5
         [HttpGet("{id}")]
-        public async Task<Survey> Get(int id)
+        public async Task<ActionResult<SurveyDto>> Get(int id)
         {
-            return await repository.GetById(id);
+            var survey = await repository.GetById(id);
+            return mapper.Map<SurveyDto>(survey);
         }
 
         // POST api/<SurveyController>
         [HttpPost]
-        public async Task Post([FromBody] Survey survey)
+        public async Task<ActionResult> Post([FromBody] SurveyDto surveyDto)
         {
+            var survey = mapper.Map<Survey>(surveyDto);
             await repository.AddItem(survey);
+            await repository.SaveChangesAsync();
+            return Ok(survey);
         }
 
         // PUT api/<SurveyController>/5
         [HttpPut]
-        public async Task Put([FromBody] Survey survey)
+        public async Task<ActionResult> Put([FromBody] SurveyDto surveyDto)
         {
+            var survey = mapper.Map<Survey>(surveyDto);
             await repository.UpdateItem(survey);
+            await repository.SaveChangesAsync();
+            return Ok(survey);
         }
 
         // DELETE api/<SurveyController>/5
         [HttpDelete("{id}")]
-        public async Task Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
             await repository.DeleteItem(id);
+            await repository.SaveChangesAsync();
+            return Ok();
         }
     }
 }

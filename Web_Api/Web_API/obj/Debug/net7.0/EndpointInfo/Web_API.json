@@ -18,7 +18,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Answer"
+                    "$ref": "#/components/schemas/AnswerDto"
                   }
                 }
               },
@@ -26,7 +26,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Answer"
+                    "$ref": "#/components/schemas/AnswerDto"
                   }
                 }
               },
@@ -34,7 +34,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Answer"
+                    "$ref": "#/components/schemas/AnswerDto"
                   }
                 }
               }
@@ -50,17 +50,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Answer"
+                "$ref": "#/components/schemas/AnswerDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Answer"
+                "$ref": "#/components/schemas/AnswerDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Answer"
+                "$ref": "#/components/schemas/AnswerDto"
               }
             }
           }
@@ -79,17 +79,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Answer"
+                "$ref": "#/components/schemas/AnswerDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Answer"
+                "$ref": "#/components/schemas/AnswerDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Answer"
+                "$ref": "#/components/schemas/AnswerDto"
               }
             }
           }
@@ -124,17 +124,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Answer"
+                  "$ref": "#/components/schemas/AnswerDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Answer"
+                  "$ref": "#/components/schemas/AnswerDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Answer"
+                  "$ref": "#/components/schemas/AnswerDto"
                 }
               }
             }
@@ -177,7 +177,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Question"
+                    "$ref": "#/components/schemas/QuestionDto"
                   }
                 }
               },
@@ -185,7 +185,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Question"
+                    "$ref": "#/components/schemas/QuestionDto"
                   }
                 }
               },
@@ -193,7 +193,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Question"
+                    "$ref": "#/components/schemas/QuestionDto"
                   }
                 }
               }
@@ -209,17 +209,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Question"
+                "$ref": "#/components/schemas/QuestionDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Question"
+                "$ref": "#/components/schemas/QuestionDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Question"
+                "$ref": "#/components/schemas/QuestionDto"
               }
             }
           }
@@ -238,17 +238,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Question"
+                "$ref": "#/components/schemas/QuestionDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Question"
+                "$ref": "#/components/schemas/QuestionDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Question"
+                "$ref": "#/components/schemas/QuestionDto"
               }
             }
           }
@@ -283,17 +283,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Question"
+                  "$ref": "#/components/schemas/QuestionDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Question"
+                  "$ref": "#/components/schemas/QuestionDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Question"
+                  "$ref": "#/components/schemas/QuestionDto"
                 }
               }
             }
@@ -336,7 +336,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Survey"
+                    "$ref": "#/components/schemas/SurveyDto"
                   }
                 }
               },
@@ -344,7 +344,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Survey"
+                    "$ref": "#/components/schemas/SurveyDto"
                   }
                 }
               },
@@ -352,7 +352,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Survey"
+                    "$ref": "#/components/schemas/SurveyDto"
                   }
                 }
               }
@@ -368,17 +368,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Survey"
+                "$ref": "#/components/schemas/SurveyDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Survey"
+                "$ref": "#/components/schemas/SurveyDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Survey"
+                "$ref": "#/components/schemas/SurveyDto"
               }
             }
           }
@@ -397,17 +397,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Survey"
+                "$ref": "#/components/schemas/SurveyDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Survey"
+                "$ref": "#/components/schemas/SurveyDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Survey"
+                "$ref": "#/components/schemas/SurveyDto"
               }
             }
           }
@@ -442,17 +442,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Survey"
+                  "$ref": "#/components/schemas/SurveyDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Survey"
+                  "$ref": "#/components/schemas/SurveyDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Survey"
+                  "$ref": "#/components/schemas/SurveyDto"
                 }
               }
             }
@@ -495,7 +495,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/User"
+                    "$ref": "#/components/schemas/UserDto"
                   }
                 }
               },
@@ -503,7 +503,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/User"
+                    "$ref": "#/components/schemas/UserDto"
                   }
                 }
               },
@@ -511,7 +511,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/User"
+                    "$ref": "#/components/schemas/UserDto"
                   }
                 }
               }
@@ -527,17 +527,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserDto"
               }
             }
           }
@@ -556,17 +556,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserDto"
               }
             }
           }
@@ -601,17 +601,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/User"
+                  "$ref": "#/components/schemas/UserDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/User"
+                  "$ref": "#/components/schemas/UserDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/User"
+                  "$ref": "#/components/schemas/UserDto"
                 }
               }
             }
@@ -683,7 +683,7 @@
   },
   "components": {
     "schemas": {
-      "Answer": {
+      "AnswerDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -701,20 +701,14 @@
             "type": "integer",
             "format": "int32"
           },
-          "question": {
-            "$ref": "#/components/schemas/Question"
-          },
           "userId": {
             "type": "integer",
             "format": "int32"
-          },
-          "user": {
-            "$ref": "#/components/schemas/User"
           }
         },
         "additionalProperties": false
       },
-      "Question": {
+      "QuestionDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -734,18 +728,11 @@
           "options": {
             "type": "string",
             "nullable": true
-          },
-          "answers": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Answer"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Survey": {
+      "SurveyDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -764,31 +751,29 @@
             "type": "integer",
             "format": "int32"
           },
-          "questions": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Question"
-            },
-            "nullable": true
-          },
           "surveyorId": {
             "type": "integer",
             "format": "int32"
           },
-          "surveyor": {
-            "$ref": "#/components/schemas/User"
-          },
-          "respondents": {
+          "questions": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/User"
+              "$ref": "#/components/schemas/QuestionDto"
+            },
+            "nullable": true
+          },
+          "respondentId": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "User": {
+      "UserDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -821,26 +806,8 @@
             "type": "string",
             "nullable": true
           },
-          "password": {
-            "type": "string",
-            "nullable": true
-          },
           "role": {
             "$ref": "#/components/schemas/eRole"
-          },
-          "ownSurveys": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Survey"
-            },
-            "nullable": true
-          },
-          "answeredSurveys": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Survey"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false

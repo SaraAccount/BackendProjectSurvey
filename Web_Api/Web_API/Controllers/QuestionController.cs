@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Common.Dto;
+using Microsoft.AspNetCore.Mvc;
 using Repository.Entities;
 using Repository.Interface;
 using System.Collections.Generic;
@@ -11,44 +13,56 @@ namespace Web_API.Controllers
     public class QuestionController : ControllerBase
     {
         IRepository<Question> repository;
-        public QuestionController(IRepository<Question> repository)
+        private readonly IMapper _mapper;
+        public QuestionController(IRepository<Question> repository,Mapper mapper)
         {
             this.repository = repository;
+            this._mapper = mapper;
         }
 
         // GET: api/<QuestionController>
         [HttpGet]
-        public async Task<IEnumerable<Question>> Get()
+        public async Task<IEnumerable<QuestionDto>> Get()
         {
-            return await repository.GetAll();
+            var questions = await repository.GetAll();
+            return  _mapper.Map<List<QuestionDto>>(questions);
         }
 
         // GET api/<QuestionController>/5
         [HttpGet("{id}")]
-        public async Task<Question> Get(int id)
+        public async Task<ActionResult<QuestionDto>> Get(int id)
         {
-            return await repository.GetById(id);
+           var answer = await repository.GetById(id);
+            return _mapper.Map<QuestionDto>(answer);   
         }
 
         // POST api/<QuestionController>
         [HttpPost]
-        public async Task Post([FromBody] Question question)
+        public async Task<ActionResult> Post([FromBody] QuestionDto questionDto)
         {
+            var question = _mapper.Map<Question>(questionDto);
             await repository.AddItem(question);
+            await repository.SaveChangesAsync();
+            return Ok();
         }
 
         // PUT api/<QuestionController>
         [HttpPut]
-        public async Task Put([FromBody] Question question)
+        public async Task<ActionResult> Put([FromBody] QuestionDto questionDto)
         {
+            var question = _mapper.Map<Question>(questionDto);
             await repository.UpdateItem(question);
+            await repository.SaveChangesAsync();
+            return Ok();
         }
 
         // DELETE api/<QuestionController>/5
         [HttpDelete("{id}")]
-        public async Task Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
             await repository.DeleteItem(id);
+            await repository.SaveChangesAsync();
+            return Ok();
         }
     }
 }

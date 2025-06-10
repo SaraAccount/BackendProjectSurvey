@@ -13,6 +13,7 @@ namespace Repository.Interface
         Task<T> AddItem(T item);
         Task DeleteItem(int id);
         Task UpdateItem(T item);
+        Task SaveChangesAsync();
     }
 
 }

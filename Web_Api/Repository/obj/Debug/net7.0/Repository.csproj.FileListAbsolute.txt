@@ -60,3 +60,16 @@ C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSur
 C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\refint\Repository.dll
 C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\Repository.pdb
 C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\C#\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\ref\Repository.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\bin\Debug\net7.0\Repository.deps.json
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\bin\Debug\net7.0\Repository.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\bin\Debug\net7.0\Repository.pdb
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\Repository.sourcelink.json
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\Repository.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\refint\Repository.dll
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\Repository.pdb
+C:\תכנות\לפני\שנה ב\פרויקט סוף שנה\projectSurvey\BackendProjectSurvey\Web_Api\Repository\obj\Debug\net7.0\ref\Repository.dll
