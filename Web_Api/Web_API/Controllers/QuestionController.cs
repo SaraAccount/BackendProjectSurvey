@@ -14,7 +14,7 @@ namespace Web_API.Controllers
     {
         IRepository<Question> repository;
         private readonly IMapper _mapper;
-        public QuestionController(IRepository<Question> repository,Mapper mapper)
+        public QuestionController(IRepository<Question> repository,IMapper mapper)
         {
             this.repository = repository;
             this._mapper = mapper;

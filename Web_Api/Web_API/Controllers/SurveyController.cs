@@ -15,7 +15,7 @@ namespace Web_API.Controllers
         private readonly IRepository<Survey> repository;
         private readonly IMapper mapper;
 
-        public SurveyController(IRepository<Survey> repository,Mapper mapper)
+        public SurveyController(IRepository<Survey> repository,IMapper mapper)
         {
             this.repository = repository;
             this.mapper = mapper;

@@ -33,7 +33,7 @@ namespace Web_API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<AnswerDto>> Get(int id)
         {
-            var answer = repository.GetById(id);
+            var answer = await repository.GetById(id);
             return _mapper.Map<AnswerDto>(answer);
         }
 

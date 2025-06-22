@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Common.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Repository.Entities;
 using Repository.Interface;
@@ -11,14 +12,15 @@ namespace Web_Api.Controllers
     public class UserController : ControllerBase
     {
         IRepository<User> repository;
-        private readonly Mapper mapper;
-        public UserController(IRepository<User> repository, Mapper mapper)
+        private readonly IMapper mapper;
+        public UserController(IRepository<User> repository, IMapper mapper)
         {
             this.repository = repository;
             this.mapper = mapper;
         }
         // GET: api/<ValuesController>
         [HttpGet]
+        [Authorize]
         public async Task<IEnumerable<UserDto>> Get()
         {
             var Users = await repository.GetAll();
@@ -35,9 +37,8 @@ namespace Web_Api.Controllers
 
         // POST api/<ValuesController>
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] UserDto userDto)
+        public async Task<ActionResult> Post([FromBody] User user)
         {
-            var user = mapper.Map<User>(userDto);
             await repository.AddItem(user);
             await repository.SaveChangesAsync();
             return Ok();
@@ -45,9 +46,8 @@ namespace Web_Api.Controllers
 
         // PUT api/<ValuesController>/5
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] UserDto userDto)
+        public async Task<ActionResult> Put([FromBody] User user)
         {
-            var user =mapper.Map<User>(userDto);
             await repository.UpdateItem(user);
             await repository.SaveChangesAsync();
             return Ok();
