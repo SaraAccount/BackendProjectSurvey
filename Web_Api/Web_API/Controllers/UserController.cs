@@ -2,6 +2,7 @@
 using Common.Dto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Repository.Entities;
 using Repository.Interface;
 using Service.Services;
@@ -31,13 +32,18 @@ namespace Web_Api.Controllers
         {
             try
             {
-                await _userService.Register(dto.Email, dto.Password);
+                await _userService.Register(dto);
                 return Ok("Registration successful");
+            }
+            catch (DbUpdateException ex)
+            {
+                return BadRequest(ex.InnerException?.Message ?? ex.Message);
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
+
         }
 
         [HttpPost("forgot-password")]

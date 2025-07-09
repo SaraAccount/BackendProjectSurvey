@@ -1,4 +1,5 @@
-﻿using Repository.Entities;
+﻿using Common.Dto;
+using Repository.Entities;
 using Repository.Repositories;
 using System;
 using System.Collections.Generic;
@@ -21,17 +22,27 @@ namespace Service.Services
             _emailService = emailService;
         }
 
-        public async Task Register(string email, string password)
+        public async Task Register(UserRegisterDto dto)
         {
-            if (await _userRepository.IsEmailExist(email))
+            if (await _userRepository.IsEmailExist(dto.Email))
                 throw new Exception("Email already exists");
 
-            var hashedPassword = HashPassword(password);
-            var user = new User { Email = email, Password = hashedPassword };
+            var hashedPassword = HashPassword(dto.Password);
+            var user = new User {
+                FirstName = dto.FirstName,
+                LastName = dto.LastName,
+                BornDate = dto.BornDate,
+                Gender = dto.Gender,
+                Sector = dto.Sector,
+                City = dto.City,
+                Email = dto.Email,
+                Password = hashedPassword,
+                Role = eRole.USER
+            };
 
             await _userRepository.AddItem(user);
 
-            await _emailService.SendEmailAsync(email, "Registration", "Welcome! You have been registered.");
+            await _emailService.SendEmailAsync(dto.Email, "Registration", "Welcome! You have been registered.");
         }
 
         public async Task ForgotPassword(string email)

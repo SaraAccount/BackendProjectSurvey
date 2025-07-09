@@ -9,6 +9,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Security.Cryptography;
 
 namespace Web_API.Controllers
 {
@@ -62,7 +63,19 @@ namespace Web_API.Controllers
         private async Task<User> Authenticate(LoginUser loginUser)
         {
             var users = await repository.GetAll();
-            return users.FirstOrDefault(x => x.Email == loginUser.email && x.Password == loginUser.password);
+            string hashedInputPassword = HashPassword(loginUser.password);
+
+            return users.FirstOrDefault(x => x.Email == loginUser.email && x.Password == hashedInputPassword);
+        }
+
+        private string HashPassword(string password)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                var bytes = Encoding.UTF8.GetBytes(password);
+                var hash = sha256.ComputeHash(bytes);
+                return Convert.ToBase64String(hash);
+            }
         }
     }
 }
