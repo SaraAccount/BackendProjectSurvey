@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Repository.Entities;
 using Repository.Interface;
+using Service.Services;
+
 
 namespace Web_Api.Controllers
 {
@@ -13,11 +15,47 @@ namespace Web_Api.Controllers
     {
         IRepository<User> repository;
         private readonly IMapper mapper;
-        public UserController(IRepository<User> repository, IMapper mapper)
+        //ADD
+        private readonly UserService _userService;
+
+        public UserController(IRepository<User> repository, IMapper mapper, UserService userService)
         {
             this.repository = repository;
             this.mapper = mapper;
+            this._userService = userService;
         }
+
+        [HttpPost("register")]
+        [AllowAnonymous]
+        public async Task<ActionResult> Register([FromBody] UserRegisterDto dto)
+        {
+            try
+            {
+                await _userService.Register(dto.Email, dto.Password);
+                return Ok("Registration successful");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("forgot-password")]
+        [AllowAnonymous]
+        public async Task<ActionResult> ForgotPassword([FromBody] EmailDto dto)
+        {
+            try
+            {
+                await _userService.ForgotPassword(dto.Email);
+                return Ok("New password sent to email");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
         // GET: api/<ValuesController>
         [HttpGet]
         [Authorize]

@@ -16,6 +16,16 @@ namespace Repository.Repositories
             this.context = context;
         }
 
+        public async Task<bool> IsEmailExist(string email)
+        {
+            return await context.Users.AllAsync(u => u.Email == email);
+        }
+
+        public async Task<User?> GetUserByEmail(string email)
+        {
+            return await context.Users.FirstOrDefaultAsync(u => u.Email == email);
+        }
+
         public async Task<User> AddItem(User item)
         {
             await context.Users.AddAsync(item);
